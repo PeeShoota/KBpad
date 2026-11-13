@@ -29,7 +29,6 @@ A strictly keyboard-driven Windows app created in Visual Studio LTSC 18.11.
 | **`Ctrl+F`** | Find | Opens the keyboard-focused inline Find bar (`Enter` jumps to next match). |
 | **`Ctrl+H`** | Find & Replace | Opens the keyboard-focused inline Find & Replace bar. |
 | **`Ctrl+G`** | Go to Line | Opens a minimal inline prompt to jump the caret to a specific line number. |
-| **`Ctrl+J`** | Help Window | Toggles a clean, read-only modal listing all keybinds and their functions. |
 | **`Esc`** | Dismiss / Focus Editor | Closes any open Help Window, Find, Replace, or Go to Line bar and returns focus straight to the editor. |
 
 ## Installation
