@@ -4,6 +4,22 @@ A lightweight, minimalist, distraction-free plain-text editor built for Windows.
 
 A strictly keyboard-driven Windows app created in Visual Studio LTSC 18.11.
 
+## Installation
+
+1. Download the latest `KBpad.Setup.exe`
+2. Run the installer and follow the steps
+
+## Prerequisites
+
+- **Windows 10** or **Windows 11**
+- **.NET 10** (`net10.0-windows`)
+
+> **Note on Linux / Wine Support (Experimental):** While KBpad is a native Windows application, it can run on Linux via **Wine**. 
+> - **Requirements:** The Windows .NET 10 Desktop Runtime must be installed inside your Wine prefix.
+> - **Known Issues:** Native file dialogs (`Ctrl+O` / `Ctrl+S`) will rely on Wine's built-in file picker interface (which from personal experience is a nightmare) rather than native Linux desktop file managers such as Thunar, Dolphin etc.
+>
+> **Note for Windows users:** This app has only been built and tested on my daily driver which runs **Windows 10 IoT Enterprise LTSC 21H2**. It should still work on most other modern Windows versions if you have the dependencies needed, but that hasn't been verified.
+
 ## Features
 
 - **Keyboard-Driven Workflow:** Every action, dialog, and overlay is 100% navigable using only the keyboard without needing a mouse.
@@ -30,20 +46,3 @@ A strictly keyboard-driven Windows app created in Visual Studio LTSC 18.11.
 | **`Ctrl+H`** | Find & Replace | Opens the keyboard-focused inline Find & Replace bar. |
 | **`Ctrl+G`** | Go to Line | Opens a minimal inline prompt to jump the caret to a specific line number. |
 | **`Esc`** | Dismiss / Focus Editor | Closes any open Help Window, Find, Replace, or Go to Line bar and returns focus straight to the editor. |
-
-## Installation
-
-1. Download the latest `KBpad.Setup.exe`
-2. Run the installer and follow the steps
-
-
-## Prerequisites
-
-- **Windows 10** or **Windows 11**
-- **.NET 10** (`net10.0-windows`)
-
-> **Note on Linux / Wine Support (Experimental):** While KBpad is a native Windows application, it can run on Linux via **Wine**. 
-> - **Requirements:** The Windows .NET 10 Desktop Runtime must be installed inside your Wine prefix.
-> - **Known Issues:** Native file dialogs (`Ctrl+O` / `Ctrl+S`) will rely on Wine's built-in file picker interface (which from personal experience is a nightmare) rather than native Linux desktop file managers such as Thunar, Dolphin etc.
->
-> **Note for Windows users:** This app has only been built and tested on my daily driver which runs **Windows 10 IoT Enterprise LTSC 21H2**. It should still work on most other modern Windows versions if you have the dependencies needed, but that hasn't been verified.
