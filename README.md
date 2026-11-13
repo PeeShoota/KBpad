@@ -35,7 +35,7 @@ Screenshot of the application
 
 | Shortcut | Action | Behavior |
 | :--- | :--- | :--- |
-| **`Ctrl+N`** | New File | Prompts to save if dirty (`*`), then clears the editor and resets the title to `Untitled.txt - KBpad 1.0.0`. |
+| **`Ctrl+N`** | New File | Prompts to save if dirty (`*`), then clears the editor and resets the title to `Untitled.txt - KBpad version`. |
 | **`Ctrl+O`** | Open File | Prompts to save if dirty (`*`), then opens the standard Windows File Open dialog (`.txt` and all files). |
 | **`Ctrl+S`** | Save | Saves directly to the active file path and clears the dirty `*` prefix (triggers `Save As` if untitled). |
 | **`Ctrl+Shift+S`** | Save As | Opens the Windows File Save dialog, updates the titlebar filename, and clears the dirty `*` prefix. |
