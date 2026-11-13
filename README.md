@@ -33,9 +33,9 @@ A strictly keyboard-driven Windows app created in Visual Studio LTSC 18.11.
 
 ## Installation
 
-1. Download the latest release zip
-2. Extract the zip anywhere and put the folder somewhere safe
-3. Run `KBpad.exe`
+1. Download the latest `KBpad.Setup.exe`
+2. Run the installer and follow the steps
+
 
 ## Prerequisites
 
@@ -44,6 +44,6 @@ A strictly keyboard-driven Windows app created in Visual Studio LTSC 18.11.
 
 > **Note on Linux / Wine Support (Experimental):** While KBpad is a native Windows application, it can run on Linux via **Wine**. 
 > - **Requirements:** The Windows .NET 10 Desktop Runtime must be installed inside your Wine prefix.
-> - **Known Caveats:** Native file dialogs (`Ctrl+O` / `Ctrl+S`) will rely on Wine's built-in file picker interface rather than native Linux desktop file managers.
+> - **Known Issues:** Native file dialogs (`Ctrl+O` / `Ctrl+S`) will rely on Wine's built-in file picker interface (which from personal experience is a nightmare) rather than native Linux desktop file managers such as Thunar, Dolphin etc.
 >
 > **Note for Windows users:** This app has only been built and tested on my daily driver which runs **Windows 10 IoT Enterprise LTSC 21H2**. It should still work on most other modern Windows versions if you have the dependencies needed, but that hasn't been verified.
