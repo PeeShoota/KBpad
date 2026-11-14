@@ -28,8 +28,13 @@ A strictly keyboard-driven Windows app created in Visual Studio LTSC 18.11.
 - **Smart Dirty-State Tracking:** Dynamically updates the titlebar (`filename.txt - KBpad 1.0.0` vs. `*filename.txt - KBpad 1.0.0`) and automatically clears the `*` indicator if edits are undone or manually deleted back to the last saved state.
 - **Unsaved Changes Safeguard:** Prompts to save, discard, or cancel via keyboard-accessible confirmation before starting a new file, opening a file, or closing with unsaved changes.
 
-Screenshot of the application
-<img width="802" height="482" alt="image" src="https://github.com/user-attachments/assets/7efa00a9-9549-4b0c-850e-9b8e8df56f2b" />
+Screenshot of the application for an out-of-date user
+<img width="802" height="482" alt="image" src="https://github.com/user-attachments/assets/66aa0a1a-cc07-4815-b020-fa7ecc5c3cc7" />
+
+Screenshot of the application for an up-to-date user
+<img width="802" height="482" alt="image" src="https://github.com/user-attachments/assets/d4abaeff-c410-473d-b1d5-1081e25b4b84" />
+
+
 
 ## Keyboard Shortcuts
 
